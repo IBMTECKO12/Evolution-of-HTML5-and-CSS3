@@ -1,0 +1,84 @@
+/* General font and text properties */
+body {
+    font-family: 'Times New Roman', serif; /* font-family */
+    font-size: 16px; /* px units */
+    text-align: left; /* text-align */
+    line-height: 1.5; /* line-height */
+    background-color: grey; /* background-color */
+    color: black; /* color for main text */
+    margin: 0; /* margin */
+    padding: 0; /* padding */
+}
+
+/* Header, nav, footer backgrounds */
+ nav, footer {
+    background-color: DarkSlateBlue; /* background-color */
+    color: white; /* color */
+    border: 2px solid black; /* border, border-width, border-style, border-color */
+    padding: 10px; /* padding */
+    text-align: center; /* text-align */
+}
+
+header {
+    font-size: 24px; /* font-size */
+    font-weight: bold; /* font-weight */
+    text-align: center; /* text-align */
+    color: black;
+    border-bottom: 2px solid white; /* Specific bottom border */
+    background-image: url('images/html5andcss3.jpg'); /* background-image */
+    border: 2px solid black; /* border, border-width, border-style, border-color */
+    padding: 10px; /* padding */
+}
+
+#intro {
+    font-style: italic; /* font-style */
+    margin: 20px; /* margin */
+    padding: 10px; /* padding */
+    border: 2px solid black; /* border, border-width, border-style, border-color */
+    background-color: lightgrey; /* background-color */
+    text-align: center; /* text-align */
+}
+/* Main content area */
+main {
+    background-color: white; /* background-color */
+    border: 2px solid black;
+    padding: 20px;
+}
+
+/* Lists */
+ul {
+    list-style-type: square; /* list-style-type */
+}
+
+/* Positioning and floats */
+img {
+    float: left; /* float - use left/right as needed */
+    margin-right: 10px; /* margin */
+}
+
+/* Pseudo-elements for links */
+a:link, a:hover, a:active {
+    color: white; /* For non-main areas */
+    font-weight: bold; /* font-weight */
+    text-decoration: none; /* text-decoration */
+}
+
+main a:link, main a:hover, main a:active {
+    color: black; /* For main text area */
+}
+
+a:visited {
+    color: grey; /* All visited */
+}
+
+nav a:hover {
+    color: blue; /* Main nav hover */
+}
+
+/* Tables - use % widths */
+table, th, td {
+    margin-bottom: 20px; /* margin */
+    border: 1px solid black; /* border */
+}
+
+/* Other sections as needed */
