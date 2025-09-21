@@ -81,4 +81,7 @@ table, th, td {
     border: 1px solid black; /* border */
 }
 
-/* Other sections as needed */
+img {
+    width: 100%; /* Responsive images */
+    height: auto; /* Maintain aspect ratio */
+}
