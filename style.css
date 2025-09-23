@@ -84,4 +84,6 @@ table, th, td {
 img {
     width: 100%; /* Responsive images */
     height: auto; /* Maintain aspect ratio */
+    float: left; /* float */
+    margin-right: 10px; /* margin */
 }
